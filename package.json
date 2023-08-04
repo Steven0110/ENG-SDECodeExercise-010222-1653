@@ -1,0 +1,25 @@
+{
+  "name": "eng-sdecodeexercise-010222-1653",
+  "version": "1.0.0",
+  "description": "\u0016\u001b[24;2~SDE Code Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steven0110/ENG-SDECodeExercise-010222-1653.git"
+  },
+  "keywords": [
+    "test",
+    "challenge",
+    "sde",
+    "ITijuana\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[i\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5"
+  ],
+  "author": "Steven0110",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Steven0110/ENG-SDECodeExercise-010222-1653/issues"
+  },
+  "homepage": "https://github.com/Steven0110/ENG-SDECodeExercise-010222-1653#readme"
+}
