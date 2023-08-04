@@ -37,7 +37,7 @@ Step 2. You will be asked to enter the name of the first file containing the str
 
 Step 3. You will be asked to enter the name of the second file containing the names of the drivers. Once typed, type *Enter*.
 
-Result. The script will output the total base suitability score (SS) and a matching between shipment destinations and drivers.
+Result. The script will output the maximum total base suitability score (SS) and a matching between shipment destinations and drivers for this value. If the script is executed in verbose mode, it will output the detail for each part of the process. It will also output the worst assignation with the lowest suitability score.
 
 ## Example
 Having the files `addresses.txt` and `drivers.txt` in the `files` folder, follow the next steps:
@@ -46,7 +46,16 @@ node index.js
 Enter the name of the file containing the addresses > addresses.txt
 Enter the name of the file containing the drivers > drivers.txt
 
-> The total base suitability score (SS) is: 67.5
+Best assignation:
+        Sharon Annabelle -> McKenzie Avenue Main Street
+        Liam Nelson -> Main Street
+        Charles Noah -> Oak Park
+        James Sunderland -> Elm Street
+        Frankie Rivers -> Lake North Avenue
+        Toby Stank -> Maple St.
+        Stephen Normal -> Washington Ninth
+                Total Suitability Score => 67.5
+
 ```
 
 ## Text files structure
