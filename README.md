@@ -59,7 +59,7 @@ Best assignation:
 ```
 
 ## Text files structure
-Each text file should contain the information splitted in multiple lines, each name (street's or driver's) should be in a single line. This is an example of the content of both files:
+Each text file should contain the information splitted in multiple lines, each name (street's or driver's) should be in a single line. Lines starting with '#' are ignored. This is an example of the content of both files:
 
 Addresses file:
 ```bash
@@ -67,8 +67,8 @@ McKenzie Avenue
 Main Street
 Oak Park
 Elm Street
-Lake North Avenue
-Maple St.
+#Lake North Avenue
+#Maple St.
 Washington Ninth
 ```
 
@@ -82,7 +82,7 @@ Toby Stank
 Stephen Normal
 Evan Peterson
 Amanda Wallet
-
+Sharon Annabelle
 ```
 
 
